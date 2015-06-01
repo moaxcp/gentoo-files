@@ -3,3 +3,4 @@ cp -r /home/john/.notion notion
 cp /etc/X11/xorg.conf .
 cp /usr/src/linux/.config kernel-config
 cp /home/john/.xinitrc xinitrc
+cp /home/john/.bashrc bashrc
