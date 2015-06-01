@@ -14,12 +14,10 @@ if [[ $- != *i* ]] ; then
 	return
 fi
 
-
 # Put your fun stuff here.
-PS1="\[\033[01;32m\]\u\[\033[01;34m\] \W\$\[\033[00m\]"
 
-#load resources for xterm
-[[ -f ~/.Xresources ]] && xrdb -merge ~/.Xresources
+#change PS1 to use colors and optimize space used.
+PS1="\[\033[01;32m\]\u\[\033[01;34m\] \W\$\[\033[00m\]"
 
 #THIS MUST BE AT THE END OF THE FILE FOR GVM TO WORK!!!
 [[ -s "/home/john/.gvm/bin/gvm-init.sh" ]] && source "/home/john/.gvm/bin/gvm-init.sh"
