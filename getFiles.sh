@@ -5,3 +5,5 @@ cp /usr/src/linux/.config kernel-config
 cp /home/john/.xinitrc xinitrc
 cp /home/john/.bashrc bashrc
 cp /etc/portage/make.conf make.conf
+cp /home/john/buildkernel.sh buildkernel.sh
+
