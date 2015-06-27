@@ -8,7 +8,6 @@ cp -r /home/john/.notion notion
 #X11
 cp /etc/X11/xorg.conf .
 cp /home/john/.xinitrc xinitrc
-cp /home/john/.Xdefaults Xdefaults
 cp /home/john/.Xresources Xresources
 
 #portage
