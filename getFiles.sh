@@ -6,7 +6,7 @@ cp /etc/conf.d/consolefont etc/conf.d
 #home
 mkdir -p home/john
 cp /home/john/.bashrc home/john/bashrc
-cp -r /home/john/.notion home/john/notion
+cp -r /home/john/.notion/* home/john/notion
 cp /home/john/.xinitrc home/john/xinitrc
 cp /home/john/.Xresources home/john/Xresources
 cp /home/john/buildkernel.sh buildkernel.sh
