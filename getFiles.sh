@@ -10,6 +10,7 @@ cp -r /home/john/.notion home/john/notion
 cp /home/john/.xinitrc home/john/xinitrc
 cp /home/john/.Xresources home/john/Xresources
 cp /home/john/buildkernel.sh buildkernel.sh
+cp -r /home/john/bin home/john
 
 #X11
 mkdir -p etc/X11
