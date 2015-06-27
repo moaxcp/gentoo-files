@@ -1,4 +1,8 @@
 # copies files from my system to this repository. The files can then be committed with changes tracked.
+#services
+mkdir -p etc/conf.d
+cp /etc/conf.d/consolefont etc/conf.d
+
 #bash
 cp /home/john/.bashrc bashrc
 
