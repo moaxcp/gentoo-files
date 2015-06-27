@@ -3,21 +3,23 @@
 mkdir -p etc/conf.d
 cp /etc/conf.d/consolefont etc/conf.d
 
-#bash
-cp /home/john/.bashrc bashrc
-
-#notion
-cp -r /home/john/.notion notion
+#home
+mkdir -p home/john
+cp /home/john/.bashrc home/john/bashrc
+cp -r /home/john/.notion home/john/notion
+cp /home/john/.xinitrc home/john/xinitrc
+cp /home/john/.Xresources home/john/Xresources
+cp /home/john/buildkernel.sh buildkernel.sh
 
 #X11
-cp /etc/X11/xorg.conf .
-cp /home/john/.xinitrc xinitrc
-cp /home/john/.Xresources Xresources
+mkdir -p etc/X11
+cp /etc/X11/xorg.conf etc/X11
 
 #portage
-cp /etc/portage/make.conf make.conf
+mkdir -p etc/portage
+cp /etc/portage/make.conf etc/portage/make.conf
 
 #kernel
-cp /usr/src/linux/.config kernel-config
-cp /home/john/buildkernel.sh buildkernel.sh
+mkdir -p usr/src/linux
+cp /usr/src/linux/.config usr/src/linux/kernel-config
 
