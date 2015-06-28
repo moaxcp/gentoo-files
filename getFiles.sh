@@ -24,3 +24,5 @@ cp /etc/portage/make.conf etc/portage/make.conf
 mkdir -p usr/src/linux
 cp /usr/src/linux/.config usr/src/linux/kernel-config
 
+#etc
+cp -r /etc/profile.d etc/
