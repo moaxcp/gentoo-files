@@ -9,7 +9,6 @@ cp /home/john/.bashrc home/john/bashrc
 cp -r /home/john/.notion/* home/john/notion
 cp /home/john/.xinitrc home/john/xinitrc
 cp /home/john/.Xresources home/john/Xresources
-cp /home/john/buildkernel.sh home/john/buildkernel.sh
 cp -r /home/john/bin home/john
 
 #X11
@@ -24,5 +23,5 @@ cp /etc/portage/make.conf etc/portage/make.conf
 mkdir -p usr/src/linux
 cp /usr/src/linux/.config usr/src/linux/kernel-config
 
-#etc
+#profile.d
 cp -r /etc/profile.d etc/
