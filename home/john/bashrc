@@ -49,5 +49,8 @@ set_prompt () {
 }
 PROMPT_COMMAND='set_prompt'
 
+#source project command for switching to projects.
+. ~/bin/project.sh
+
 #THIS MUST BE AT THE END OF THE FILE FOR GVM TO WORK!!!
 [[ -s "/home/john/.gvm/bin/gvm-init.sh" ]] && source "/home/john/.gvm/bin/gvm-init.sh"
