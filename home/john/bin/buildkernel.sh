@@ -1,3 +1,3 @@
 make silentoldconfig
-genkernel --oldconfig --lvm --mdadm --makeopts="-j9 -l8" all
-emerge --ask @module-rebuild
+genkernel --menuconfig --lvm --mdadm --makeopts="-j9 -l8" all
+emerge -v @module-rebuild
