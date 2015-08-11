@@ -8,6 +8,7 @@ mkdir -p home/john
 cp /home/john/.bashrc home/john/bashrc
 cp /home/john/.vimrc home/john/vimrc
 cp -r /home/john/.notion/* home/john/notion
+rm -r home/john/notion/default-session--{0,1,2,3}
 cp /home/john/.xinitrc home/john/xinitrc
 cp /home/john/.Xresources home/john/Xresources
 cp -r /home/john/bin home/john
