@@ -49,8 +49,13 @@ set_prompt () {
 }
 PROMPT_COMMAND='set_prompt'
 
+. ~/tokens
+
 #source project command for switching to projects.
 . ~/bin/project.sh
 
-#THIS MUST BE AT THE END OF THE FILE FOR GVM TO WORK!!!
-[[ -s "/home/john/.gvm/bin/gvm-init.sh" ]] && source "/home/john/.gvm/bin/gvm-init.sh"
+export GOPATH=~/go
+export PATH=$GOPATH/bin:$PATH
+
+#set vi mode
+set -o vi
